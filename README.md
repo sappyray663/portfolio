@@ -16,7 +16,8 @@ A responsive personal portfolio website to showcase my projects, skills, and con
 ## Purpose
 This portfolio acts as a central place to showcase my work and GitHub projects as I grow as a developer.
 
-🔗 Live Demo: https://portfolio-saptashwa-ray.netlify.app
+🔗 Live Demo: https://portfolio-saptashwa-ray.netlify.app (netlify link)
+🔗 Live Demo: https://portfolio-saptashwa-ray.vercel.app (vercel link)
 
 ## Future Improvements
 - Add backend contact form
