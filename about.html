@@ -25,7 +25,7 @@
     <!-- Navigation -->
     <nav>
         <div class="container">
-            <a href="/index.html" class="logo">Saptashwa Ray</a>
+            <a href="index.html" class="logo">Saptashwa Ray</a>
             <ul class="nav-links">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
@@ -39,105 +39,20 @@
     <section id="about" class="about">
         <div class="container">
             <h2 class="section-title">About Me</h2>
-            <div class="about-content">
-                <p>I’m a creative-driven developer who enjoys turning ideas into clean, meaningful digital experiences. I work primarily with HTML, CSS, and JavaScript, focusing on responsive design, smooth interactions, and user-first layouts.
-
-Beyond code, creativity defines me. I’ve been playing the guitar for over six years, I’m deeply into books, poetry, and literature, and I bring that same sense of rhythm and storytelling into my work. Strong communication, teamwork, and an eye for detail help me collaborate effectively and build things that feel intentional.
-
-Currently, I’m expanding my skill set toward full-stack development while constantly refining my frontend craft. I believe good design should not just look good, but feel right.
-                </p>
-                <br></br>
-                <div class="skills">
-                 <h3>My Skills:</h3>
-                 <div class="skill-tags">
-                     <!-- HTML5 Skill -->
-                      <div class="skill-tag">
-                          <div class="skill-icon">
-                             <i class="fa-solid fa-code"></i>
-                          </div>
-                          <div class="skill-name">HTML5</div>
-                          
-                      </div>
-        
-                      <!-- CSS3 Skill -->
-                     <div class="skill-tag">
-                          <div class="skill-icon">
-                             <i class="fa-brands fa-css3-alt"></i>
-                          </div>
-                          <div class="skill-name">CSS3</div>
-                           
-                      </div>
-        
-                      <!-- Other skills (no descriptions) -->
-                     <div class="skill-tag">
-                         <div class="skill-icon">
-                             <i class="fa-brands fa-js"></i>
-                         </div>
-                         <div class="skill-name">JavaScript</div>
-                       </div>
-        
-                       <div class="skill-tag">
-                           <div class="skill-icon">
-                                 <i class="fa-brands fa-react"></i>
-                           </div>
-                           <div class="skill-name">React</div>
-                      </div>
-        
-                       <div class="skill-tag">
-                           <div class="skill-icon">
-                              <i class="fa-brands fa-github"></i>
-                          </div>
-                           <div class="skill-name">Git</div>
-                      </div>
-        
-                     <div class="skill-tag">
-                       <div class="skill-icon">
-                            <i class="fa-brands fa-python"></i>
-                      </div>
-                     <div class="skill-name">Python</div>
-                  </div>
-                </div>
-                <br></br>
-                <div class="soft-skills">
-                    <h3>Soft Skills:</h3>
-                    <div class="skill-tags">
-                        <div class="skill-tag">
-                            <div class="skill-icon"><i class="fa-solid fa-comment"></i></div>
-                            <div class="skill-name">Communication</div>
-                        </div>
-                        <div class="skill-tag">
-                            <div class="skill-icon"><i class="fa-solid fa-handshake"></i></div>
-                            <div class="skill-name">Teamwork</div>
-                        </div>
-                        <div class="skill-tag">
-                            <div class="skill-icon"><i class="fa-solid fa-lightbulb"></i></div>
-                            <div class="skill-name">Creativity</div>
-                        </div>
-                    </div>
-                </div>
-
-                <br></br>
-                <!-- Hobbies / Interests Section -->
-                <div class="hobbies">
-                    <h3>Hobbies & Interests:</h3>
-                    <div class="skill-tags">
-                        <div class="skill-tag">
-                            <div class="skill-icon"><i class="fa-solid fa-guitar"></i></div>
-                            <div class="skill-name">Guitarist</div>
-                        </div>
-                    <div class="skill-tag">
-                        <div class="skill-icon"><i class="fa-solid fa-book"></i></div>
-                        <div class="skill-name">Book Lover</div>
-                    </div>
-                    <div class="skill-tag">
-                        <div class="skill-icon"><i class="fa-solid fa-pen-fancy"></i></div>
-                        <div class="skill-name">Poetry</div>
-                    </div>
-                </div>
-            </div>
-            </div>
-            </div>
         </div>
     </section>
+
+    <section class="ai-search-container">
+            
+            <div class="search-box">
+                <input type="text" id="ai-query" placeholder="Ask Sappy">
+                <button onclick="askAI()">Search</button>
+            </div>
+
+            <div id="ai-answer" class="answer-box">
+                <span class="placeholder">Waiting for your question...</span>
+            </div>
+        </section>
+    <script src="about.js"></script>
 </body>
 </html>

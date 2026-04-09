@@ -21,7 +21,7 @@ window.addEventListener('DOMContentLoaded', () => {
         comet.style.display = 'block';
         setTimeout(() => { comet.style.opacity = '1'; }, 50);
         animate();
-    }, 6000);
+    }, 2000);
 
     // 2. MOUSE TRACKING
     window.addEventListener('mousemove', (e) => {

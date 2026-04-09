@@ -304,9 +304,9 @@ section {
     font-family: var(--font-mono);
     font-size: 2.5rem;
     text-align: left;
-    margin-top: 8.5rem;
-    margin-left: 0px;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-left: -5px;
+    margin-bottom: 1rem;
     position: relative;
 }
 
@@ -331,118 +331,60 @@ section {
 }
 
  
-.about-content {
-    max-width: 800px;
-    margin-top: 0 auto;
-    text-align: left;
+
+
+.ai-search-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    background: var(--violet-color);
+    border: 1px solid var(--primary-color);
+    padding: 30px;
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
 }
 
-.about-content p {
-    font-family: var(--font-primary);
-    opacity: 0.8;
-    font-size: 16px;
-    line-height: 1.7;
-    margin-bottom: 2rem;
-    margin-left: 0rem;
-}
-
-.skills {
-    margin-top: 3rem;
-}
-
-.skills h3 {
-    font-family: var(--font-primary);
-    font-size: 24px;
-    margin-bottom: 1.5rem;
-    
-}
-
-.skill-tags {
+.search-box {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    gap: 5rem;
-    
+    gap: 10px;
+    background: var(--violet-color);
+    margin: 20px 0;
 }
 
-.skill-tag {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: var(--dark-color);
-    border-radius: 6px;
-    min-width: 150px; /* Adjust as needed */
-    transition: transform 0.3s ease;
+#ai-query {
+    flex: 1;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid var(--violet-color);
+    background: var(--violet-color);
+    color: var(--light-gray);
+    outline: none;
 }
 
-.skill-name {
-    font-family: var(--font-mono);
-    font-weight: 400;
-    margin-bottom: 0.5rem;
-    margin-left: -0.5rem;
-    font-size: 16px;
+#ai-query:focus {
+    border-color: var(--violet-color);
 }
 
-/* Make descriptions only show on hover (optional) */
-
-
-.skill-tag:hover  {
-    transform: translateY(-8px);
+button {
+    padding: 12px 24px;
+    background: var(--accent);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
 }
 
-.skill-icon {
-    color: var(--primary-color);
-    margin-right: 0.8rem;
-    margin-top: 0.8rem;
-    margin-bottom: 1rem;
-    font-size: 2rem;
+button:hover {
+    transform: scale(1.05);
 }
 
-/* Soft Skills & Hobbies Sections */
-.soft-skills, .hobbies {
-    margin-top: 3rem;
-}
-
-.soft-skills h3, .hobbies h3 {
-    font-family: var(--font-primary);
-    font-size: 1.8rem;
-    margin-bottom: 1.5rem;
-}
-
-.soft-skills .skill-tags, .hobbies .skill-tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
-    gap: 5rem;
-}
-
-.soft-skills .skill-tag, .hobbies .skill-tag {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    background-color: var(--dark-color);
-    min-width: 130px;
-    padding: 0.8rem 1rem;
-    border-radius: 6px;
-    transition: transform 0.3s ease;
-}
-
-.soft-skills .skill-tag:hover, .hobbies .skill-tag:hover {
-    transform: translateY(-8px);
-}
-
-.soft-skills .skill-icon, .hobbies .skill-icon {
-    color: var(--primary-color);
-    margin-bottom: 0.5rem;
-    font-size: 1.8rem;
-}
-
-.soft-skills .skill-name, .hobbies .skill-name {
-    font-family: var(--font-mono);
-    font-weight: 400;
-    font-size: 16px;
+.answer-box {
+    min-height: 60px;
+    padding: 15px;
+    border-left: 3px solid var(--accent);
+    background: var(--violet-color);
+    font-style: italic;
 }
 
 

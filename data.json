@@ -1,0 +1,62 @@
+[
+  {
+    "id": "stack-frontend",
+    "topic": "Frontend Skills",
+    "text": "Saptashwa is highly proficient in modern Frontend development, specifically using HTML5, CSS3, and JavaScript (ES6+). He focuses on writing clean, semantic code and implementing responsive design to ensure websites work on all devices.",
+    "keywords": ["html", "css", "javascript", "js", "frontend", "web design", "ui"]
+  },
+  {
+    "id": "stack-python",
+    "topic": "Python Experience",
+    "text": "He began specializing in Python in 2025, using it for automation scripts and backend logic. This shift allowed him to bridge the gap between interactive interfaces and data-driven functionality.",
+    "keywords": ["python", "scripting", "backend", "automation", "programming"]
+  },
+  {
+    "id": "stack-java",
+    "topic": "Java Foundation",
+    "text": "His programming journey started in 2023 (9th Grade) with Java. This provided him with a strong foundation in Object-Oriented Programming (OOP) and logical problem-solving.",
+    "keywords": ["java", "oop", "basics", "learning", "foundation"]
+  },
+  {
+    "id": "proj-portfolio",
+    "topic": "Interactive Portfolio Project",
+    "text": "One of his standout projects is this interactive portfolio. It features a custom physics-based 'Journey' page and an integrated AI search bar, demonstrating his ability to combine creative UX with technical complexity.",
+    "keywords": ["portfolio project", "physics", "ai search", "journey", "live demo"]
+  },
+  {
+    "id": "proj-future",
+    "topic": "Upcoming Projects",
+    "text": "Saptashwa is currently developing a series of utility web apps and a personal music-tech integration project. He maintains a GitHub repository where he tracks his daily progress and experiments.",
+    "keywords": ["github", "github link", "work", "repositories", "source code"]
+  },
+  {
+    "id": "soft-comm",
+    "topic": "Communication & Teamwork",
+    "text": "With a background in creative collaboration, Saptashwa excels in teamwork and clear communication. He is adept at explaining technical concepts to non-technical stakeholders and thrives in collaborative environments.",
+    "keywords": ["soft skills", "teamwork", "communication", "collaboration", "leadership"]
+  },
+  {
+    "id": "culture-music",
+    "topic": "Music & Creativity",
+    "text": "A guitarist and music producer for 6+ years, he brings a unique sense of rhythm and flow to his UI/UX designs. He views a well-coded website like a well-composed song—everything must be in sync.",
+    "keywords": ["music", "guitar", "creative", "producer", "rhythm", "flow"]
+  },
+  {
+    "id": "culture-lit",
+    "topic": "Literature & Philosophy",
+    "text": "Saptashwa is deeply into literature, poetry, and books. This passion for storytelling helps him create web experiences that are intentional and narratively driven, rather than just functional.",
+    "keywords": ["books", "poetry", "literature", "reading", "storytelling", "philosophy"]
+  },
+  {
+    "id": "loc-origin",
+    "topic": "Location & Availability",
+    "text": "He is based in Siliguri, India, often called the 'City of Hospitality.' He is open to remote opportunities worldwide and local collaborations within the tech community.",
+    "keywords": ["location", "siliguri", "india", "remote", "hire", "work from home"]
+  },
+  {
+    "id": "contact-info",
+    "topic": "Contact Details",
+    "text": "You can reach Saptashwa via the Contact page on this site. He is always open to discussing web development, creative projects, or the latest in music and literature.",
+    "keywords": ["email", "contact", "hire", "message", "linkedin", "reach out"]
+  }
+]
